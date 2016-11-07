@@ -22,22 +22,32 @@ public class FibonacciTest {
 	}
 
 	@Test
-	public void testLongRun() {
-		// Dummy assert... added for-loop just to enforce this TC to be
-		// CPU-intense!
-		for (int i = 0; i < 3; i++) {
-			Fibonacci.compute(45L);
-		}
+	public void testLongRun1() {
+		Fibonacci.compute(45L); // Let code running a little....
 		assertTrue(2L == Fibonacci.compute(3L));
 	}
 
 	@Test
-	public void testOtherLongRun() {
-		// Dummy assert... added for-loop just to enforce this TC to be
-		// CPU-intense!
-		for (int i = 0; i < 3; i++) {
-			Fibonacci.compute(45L);
-		}
+	public void testLongRun2() {
+		Fibonacci.compute(45L); // Let code running a little....
+		assertTrue(2L == Fibonacci.compute(3L));
+	}
+
+	@Test
+	public void testLongRun3() {
+		Fibonacci.compute(45L); // Let code running a little....
+		assertTrue(2L == Fibonacci.compute(3L));
+	}
+
+	@Test
+	public void testLongRun4() {
+		Fibonacci.compute(45L); // Let code running a little....
+		assertTrue(2L == Fibonacci.compute(3L));
+	}
+
+	@Test
+	public void testLongRun5() {
+		Fibonacci.compute(45L); // Let code running a little....
 		assertTrue(2L == Fibonacci.compute(3L));
 	}
 
